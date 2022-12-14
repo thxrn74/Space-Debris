@@ -8,7 +8,7 @@ import math
 import numpy as np
 
 #reading data frame and removing unnecessary columns
-df = pd.read_csv("C:\\Users\\thorn\\Desktop\\Coding\\CSVs\\space_decay.csv")
+df = pd.read_csv("space-decay.csv")
 df = df.drop(['CCSDS_OMM_VERS', 'COMMENT', 'ORIGINATOR', 'CENTER_NAME', 'REF_FRAME', 'TIME_SYSTEM', 'MEAN_ELEMENT_THEORY',\
               'EPHEMERIS_TYPE', 'CLASSIFICATION_TYPE', 'ELEMENT_SET_NO', 'MEAN_MOTION_DDOT', 'DECAY_DATE'], axis = 1)
 
